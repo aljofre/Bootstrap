@@ -1,1 +1,54 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi página web con Bootstrap</title>
+  <!-- Cargar Bootstrap desde un CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Mi Página Web</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Carrusel de imágenes -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="118.jpg" alt="Primer slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="120.jpg" alt="Segundo slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="220i.jpg" alt="Tercer slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample
